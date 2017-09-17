@@ -17,6 +17,7 @@ public:
 	~Cluster();
 	void push(std::vector<int>);
 	void setDimension(int); 
+	void resetCluster();
 
 };
 

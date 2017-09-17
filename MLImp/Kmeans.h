@@ -10,5 +10,7 @@ private:
 public:
 	Kmeans();
 	~Kmeans();
-	void randomCluster();
+	void randomCentroid(int, int);
+	void setK(int);
+	void setCentroids(std::vector< std::vector<int> >);
 };
